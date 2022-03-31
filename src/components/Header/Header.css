@@ -1,7 +1,7 @@
 .header-nav {
     height: 4rem;
     width: 100%;
-    background-color: chocolate;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

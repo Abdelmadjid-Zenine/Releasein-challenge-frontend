@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Product from './components/products/Product';
 import ProductForm from "./components/Forms/ProductForm"
 import ProductTypeForm from './components/Forms/ProductTypeForm';
+import EditForm from './components/Forms/EditForm';
 function App() {
   return (
     <Router>
@@ -18,8 +19,13 @@ function App() {
             
           </Route>
           <Route path="/addProduct" element={<ProductForm/>}/>
-          <Route path="/produtTypes" element={<ProductTypes/>}/>
+          <Route path="/productTypes" element={<ProductTypes/>}/>
+              
+            
+           
           <Route path="/addProductType" element={<ProductTypeForm/>}/>
+          <Route path='/edit/:id' element={<EditForm/>}/>
+          <Route path="*" element={<ProductTypes/>}/>
         </Routes>
       </div>
     </Router>
