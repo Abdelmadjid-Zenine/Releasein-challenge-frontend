@@ -1,0 +1,28 @@
+.header-nav {
+    height: 4rem;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: fixed; */
+    align-items: center;
+    padding: 1em;
+}
+li {
+    list-style: none;
+}
+.title{
+    color: white;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.link {
+    text-decoration: none;
+    color: white;
+
+
+}
